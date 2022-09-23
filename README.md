@@ -2,7 +2,7 @@
 My project for Quarqs test case 
 
 Main target was to create Dashboard using Grafana for visualisation,
-Prometheus for reciving data and BlackBox exporter for tracking and expoting data + all ofit must be containerized in docker.
+Prometheus for reciving data and BlackBox exporter for tracking and expoting data + all of it must be containerized in docker.
 
 ## **Scope of tasks** 
 
