@@ -3,8 +3,8 @@
       
         rules:
         - alert: AVG_Probe_duration_seconds
-          expr: avg by (target)(probe_http_duration_seconds) >= 60
-          for: 2s
+          expr: avg by (target)(probe_http_duration_seconds) >= 2s
+          for: 60s
           labels:
             severity: "critical"
           annotations:
